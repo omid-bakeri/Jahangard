@@ -4,5 +4,6 @@ export default {
   theme: {
     extend: {},
   },
+  fontFamily: ["iransans-black", "sans-serif"],
   plugins: [],
 };
