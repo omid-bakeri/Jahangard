@@ -3,14 +3,16 @@ import Menu from "./Menu";
 
 function Navbar() {
   return (
-    <div
-      className="px-4 shadow-lg w-full
-    py-2 bg-orange-500
+    <div className="w-full shadow-lg bg-orange-500">
+      <div
+        className="px-4
+    py-2
      flex justify-between
-      items-center"
-    >
-      <Logo />
-      <Menu />
+      items-center w-[1400px] mx-auto"
+      >
+        <Logo />
+        <Menu />
+      </div>
     </div>
   );
 }
