@@ -1,21 +1,21 @@
 import Navbar from "../Components/NavBar/Navbar";
+import NotFound from "../Components/NotFound";
 
 function PageNotFound() {
   return (
     <>
       <div
-        className="bg-red-400 
+        className="
       h-screen relative"
       >
-        <div className="">
+        <div className=" w-full">
           <Navbar />
         </div>
         <div
-          className="w-full flex 
-          justify-center
-         items-center text-black"
+          className=" flex-col flex justify-start 
+        items-center w-full h-screen"
         >
-          صفحه مورد نظر شما پیدا نشد :(
+          <NotFound />
         </div>
       </div>
     </>

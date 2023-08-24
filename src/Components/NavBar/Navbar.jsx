@@ -8,7 +8,7 @@ function Navbar() {
         className="px-4
     py-2
      flex justify-between
-      items-center w-[1400px] mx-auto"
+      items-center max-w-[1400px] mx-auto"
       >
         <Logo />
         <Menu />

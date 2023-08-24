@@ -26,3 +26,7 @@ body {
     animation: logo-spin infinite 20s linear;
   }
 }
+
+.active {
+  color: #883412;
+}
