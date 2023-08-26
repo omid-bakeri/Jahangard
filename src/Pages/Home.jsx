@@ -1,6 +1,7 @@
 import Footer from "../Components/Footer/Footer";
 import Navbar from "../Components/NavBar/Navbar";
 import { FaMap } from "react-icons/fa";
+import { Link } from "react-router-dom";
 function Home() {
   return (
     <div
@@ -16,18 +17,20 @@ function Home() {
           با جهانگرد می توانید هر جایی را بخواهید انتخاب کنید و اطلاعات لازم را
           درباره آن جا و اطلاعات سفر خود ببینید .{" "}
         </div>
-        <div
-          className="flex gap-3 
+        <Link to="/Apps">
+          <div
+            className="flex gap-3 
         items-center justify-center px-8 
         py-2 rounded-r-full bg-orange-500 select-none
-         rounded-l-full shadow-2xl hover:opacity-80
+         rounded-l-full shadow-2xl hover:opacity-80 hover:text-white
           hover:duration-500 hover:cursor-pointer active:mt-2"
-        >
-          <button className="">بزن بریم رو نقشه</button>
-          <i>
-            <FaMap />
-          </i>
-        </div>
+          >
+            <button>بزن بریم رو نقشه</button>
+            <i>
+              <FaMap />
+            </i>
+          </div>
+        </Link>
       </div>
       <Footer />
     </div>
