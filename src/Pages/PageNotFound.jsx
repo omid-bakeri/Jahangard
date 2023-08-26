@@ -1,3 +1,4 @@
+import Footer from "../Components/Footer/Footer";
 import Navbar from "../Components/NavBar/Navbar";
 import NotFound from "../Components/NotFound";
 
@@ -8,7 +9,7 @@ function PageNotFound() {
         className="
       h-screen relative"
       >
-        <div className=" w-full">
+        <div className="absolute w-full">
           <Navbar />
         </div>
         <div
@@ -16,6 +17,9 @@ function PageNotFound() {
         items-center w-full h-screen"
         >
           <NotFound />
+        </div>
+        <div className="w-full">
+          <Footer />
         </div>
       </div>
     </>
