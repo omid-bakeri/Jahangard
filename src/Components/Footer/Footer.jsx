@@ -3,10 +3,10 @@ import { FaInstagram, FaTelegram, FaTwitter, FaYoutube } from "react-icons/fa";
 function Footer() {
   return (
     <div
-      className="bg-gray-700 
-  absolute w-full p-10 bottom-0 "
+      className="bg-gray-700  opacity-90
+  absolute w-full p-4 bottom-0 "
     >
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between max-w-[1600px] mx-auto items-center">
         <Logo />
         <div
           className="text-xl selection:bg-orange-500
