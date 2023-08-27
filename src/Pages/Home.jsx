@@ -9,11 +9,11 @@ function Home() {
     bg-[linear-gradient(to_right_bottom,rgba(0,4,4,0.7),rgba(6,1,2,0.8)),url('public/assets/images/pexels-photo-3278215.jpeg')]"
     >
       <Navbar />
-      <div className="flex flex-col justify-center items-center h-[800px] ">
+      <div className="flex flex-col select-none justify-center items-center h-[800px] ">
         <div className="text-4xl font-bold shadow-xl text-gray-200 p-3 pt-4">
           جهانگرد ، دور دنیا رو با جهانگرد بزن{" "}
         </div>
-        <div className="text-gray-400 pt-4 p-3 max-w-[900px] text-center leading-10">
+        <div className="text-gray-400 select-none pt-4 p-3 max-w-[900px] text-center leading-10">
           با جهانگرد می توانید هر جایی را بخواهید انتخاب کنید و اطلاعات لازم را
           درباره آن جا و اطلاعات سفر خود ببینید .{" "}
         </div>
