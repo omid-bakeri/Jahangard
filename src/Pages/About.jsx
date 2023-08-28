@@ -37,8 +37,8 @@ function About() {
           <div className="text-lg text-center pt-4 text-gray-400 ">
             برنامه نویس Front End و دانشجوی مهندسی کامپیوتر
           </div>
-          <div className="text-lg mt-10 text-gray-300">
-            برنامه جهانگرد برنامه ای کاربردی است که توسط ریکت ساخته شده است و می
+          <div className="text-lg leading-8 mt-10 text-gray-300">
+            برنامه جهانگرد برنامه ای کاربردی است که توسط React ساخته شده است و می
             توانید جاهای مختلف دنیا را برای سفر بررسی کنید آن ها را ذخیره کنید و
             شهر های مختلف و اطلاعاتی که دارن را روی نقشه ببینید.
           </div>
