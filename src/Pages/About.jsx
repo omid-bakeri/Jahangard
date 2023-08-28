@@ -35,7 +35,7 @@ function About() {
             امید باکری
           </div>
           <div className="text-lg text-center pt-4 text-gray-400 ">
-            برنامه نویس Fullstack و دانشجوی مهندسی کامپیوتر
+            برنامه نویس Front End و دانشجوی مهندسی کامپیوتر
           </div>
           <div className="text-lg mt-10 text-gray-300">
             برنامه جهانگرد برنامه ای کاربردی است که توسط ریکت ساخته شده است و می
@@ -70,7 +70,7 @@ function About() {
                 <FaGoogle />
               </i>
               <a
-                href="https://github.com/omid-bakeri"
+                href="#"
                 target="_blank"
                 className="text-gray-300
                text-lg hover:text-gray-400 hover:duration-500"
